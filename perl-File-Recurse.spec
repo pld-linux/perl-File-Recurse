@@ -31,8 +31,6 @@ katalogów w postaci tablicy.
 %build
 perl Makefile.PL
 %{__make}
-# if module isn't noarch, use:
-# %{__make} OPTIMIZE="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
