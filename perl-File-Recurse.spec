@@ -7,7 +7,7 @@ Summary(no):	Perlmodul File::Recurse
 Summary(pl):	Modu³ perla File::Recurse
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
