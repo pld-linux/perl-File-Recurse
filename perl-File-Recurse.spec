@@ -12,6 +12,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
 Source0:	http://www.cpan.org/authors/id/D/DI/DIONALM/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	32d480f17d7b09a3f2d6d2149103720b
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
