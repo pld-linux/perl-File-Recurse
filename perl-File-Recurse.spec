@@ -47,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/File/Recurse.pm
 %{perl_sitearch}/auto/File/Recurse
 # probably bogus
-#%{perl_sitearch}/perllocal.pod
+#%%{perl_sitearch}/perllocal.pod
 
 %{_mandir}/man3/*
