@@ -3,7 +3,7 @@
 %define	pnam	Recurse
 Summary:	File::Recurse perl module
 Summary(es):	Modulo Perl File::Recurse
-Summary(no):	Perlmodul File::Recurse
+Summary(nb):	Perlmodul File::Recurse
 Summary(pl):	Modu³ perla File::Recurse
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
