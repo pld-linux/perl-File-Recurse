@@ -1,10 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Recurse
-Summary:	File::Recurse perl module
-Summary(es):	Modulo Perl File::Recurse
-Summary(nb):	Perlmodul File::Recurse
-Summary(pl):	Modu³ perla File::Recurse
+Summary:	File::Recurse - module for recursing directories
+Summary(pl):	File::Recurse - modu³ do rekurencyjnego przetwarzania katalogów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
 Release:	2
