@@ -5,7 +5,7 @@ Summary:	File::Recurse - module for recursing directories
 Summary(pl):	File::Recurse - modu³ do rekurencyjnego przetwarzania katalogów
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
