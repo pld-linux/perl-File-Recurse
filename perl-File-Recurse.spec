@@ -7,7 +7,7 @@ Summary(no):	Perlmodul File::Recurse
 Summary(pl):	Modu³ perla File::Recurse
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.11
-Release:	2
+Release:	2.1
 License:	Artistic
 Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
@@ -45,8 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %{perl_sitelib}/File/Recurse.pm
-%{perl_sitearch}/auto/File/Recurse
-# probably bogus
-#%%{perl_sitearch}/perllocal.pod
 
 %{_mandir}/man3/*
