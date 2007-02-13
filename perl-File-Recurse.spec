@@ -2,7 +2,7 @@
 %define		pdir	File
 %define		pnam	Recurse
 Summary:	File::Recurse - module for recursing directories
-Summary(pl.UTF-8):   File::Recurse - moduł do rekurencyjnego przetwarzania katalogów
+Summary(pl.UTF-8):	File::Recurse - moduł do rekurencyjnego przetwarzania katalogów
 Name:		perl-File-Recurse
 Version:	0.11
 Release:	3
