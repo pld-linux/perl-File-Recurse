@@ -5,7 +5,7 @@ Summary:	File::Recurse - module for recursing directories
 Summary(pl.UTF-8):	File::Recurse - moduł do rekurencyjnego przetwarzania katalogów
 Name:		perl-File-Recurse
 Version:	0.11
-Release:	3
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
