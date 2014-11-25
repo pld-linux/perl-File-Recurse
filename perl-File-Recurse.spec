@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	File
 %define		pnam	Recurse
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::Recurse - module for recursing directories
 Summary(pl.UTF-8):	File::Recurse - moduł do rekurencyjnego przetwarzania katalogów
 Name:		perl-File-Recurse
@@ -11,6 +11,7 @@ Group:		Development/Languages/Perl
 # does not seem to be available on CPAN ftp
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DI/DIONALM/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32d480f17d7b09a3f2d6d2149103720b
+URL:		http://search.cpan.org/dist/File-Recurse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -21,8 +22,8 @@ File::Recurse is used to recurse directory structures and saving the
 data into an array.
 
 %description -l pl.UTF-8
-Moduł File::Recurse zapisuje w sposób rekurencyjny struktury
-katalogów w postaci tablicy.
+Moduł File::Recurse zapisuje w sposób rekurencyjny struktury katalogów
+w postaci tablicy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
