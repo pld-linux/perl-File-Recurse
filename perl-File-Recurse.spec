@@ -1,6 +1,5 @@
 %define		pdir	File
 %define		pnam	Recurse
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Recurse - module for recursing directories
 Summary(pl.UTF-8):	File::Recurse - moduł do rekurencyjnego przetwarzania katalogów
 Name:		perl-File-Recurse
